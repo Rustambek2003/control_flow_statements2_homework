@@ -6,4 +6,28 @@ def main(n):
     Returns:
         int: return answer.
     """
-    return
+    x1 = n % 10
+    n //= 10
+
+    x2 = n % 10
+    n //= 10
+
+    x3 = n % 10
+    n //= 10
+
+    x4 = n % 10
+    n //= 10
+
+    x5 = n % 10
+    k = 1
+    s = x5
+    if s < x4:
+        k = 2
+    if s < x3:
+        k = 3
+    if s < x2:
+        k = 4
+    if s < x1:
+        k = 5
+
+    return k
