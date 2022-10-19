@@ -22,12 +22,16 @@ def main(n):
     k = 1
     s = x5
     if s < x4:
+        s = x4
         k = 2
     if s < x3:
+        s = x3
         k = 3
     if s < x2:
+        s = x2
         k = 4
     if s < x1:
         k = 5
 
     return k
+print(main(15968))
