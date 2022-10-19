@@ -20,18 +20,18 @@ def main(n):
 
     x5 = n % 10
     k = 1
-    s = x5
-    if s < x4:
-        s = x4
+    s = x1
+    if s < x2:
+        s = x2
         k = 2
     if s < x3:
         s = x3
         k = 3
-    if s < x2:
-        s = x2
+    if s < x4:
+        s = x4
         k = 4
-    if s < x1:
+    if s < x5:
         k = 5
 
     return k
-print(main(15968))
+print(main(54694))
