@@ -12,6 +12,7 @@ def main(a,b,c):
         s = a
     if b < a and b < c:
         s = b
-    if c < a and c < b
+    if c < a and c < b:
+        s = c
 
     return s
